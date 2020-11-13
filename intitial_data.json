@@ -388,7 +388,7 @@
       "nmb": 2,
       "price_per_item": "89990.00",
       "total_price": "179980.00",
-      "is_active": true,
+      "is_active": false,
       "created": "2020-10-30T15:24:21.905Z",
       "update": "2020-10-30T15:40:05.942Z"
    }
@@ -403,9 +403,24 @@
       "nmb": 2,
       "price_per_item": "67990.00",
       "total_price": "135980.00",
-      "is_active": true,
+      "is_active": false,
       "created": "2020-10-30T15:24:33.849Z",
       "update": "2020-10-30T15:40:05.973Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 16,
+   "fields": {
+      "session_key": "dbmqxpo7pqkrnmcsqpd0p29pfgyh0wuk",
+      "order": null,
+      "product": 2,
+      "nmb": 2,
+      "price_per_item": "9995.00",
+      "total_price": "19990.00",
+      "is_active": true,
+      "created": "2020-11-13T12:14:51.197Z",
+      "update": "2020-11-13T12:14:51.197Z"
    }
 },
 {
