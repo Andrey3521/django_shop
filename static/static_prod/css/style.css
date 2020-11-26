@@ -5,8 +5,16 @@ html, body{
     background-color: #edeef0;
 }
 
+.navbar{
+    margin-bottom: 0;
+}
+
+.wrapper{
+    padding-bottom: 100px;
+}
+
 .section-top {
-    margin: 20px;
+
 }
 
 .product-item {
@@ -14,7 +22,7 @@ html, body{
     background-color: white;
     border: 1px solid lightgrey;
     position: relative;
-    padding: 5px;
+    padding: 10px 0 10px 0;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -25,4 +33,84 @@ html, body{
     left: 0px;
     right: 0px;
 }
+
+
+
+.discount-container{
+    position:absolute;
+    top:30%;
+    background:#55e073;
+    width:30%;
+    color:white;
+    font-weight:700;
+    padding:3px;
+}
+
+.section-delivery {
+    height:300px;
+    background-color: darkseagreen;
+    text-align: center;
+    color:white;
+}
+
+.wrapper-content{
+    overflow: auto;
+    padding-bottom: 180px;
+}
+
+.footer{
+    position: relative;
+    margin-top: -180px !important;
+    height: 180px;
+    clear: both;
+    background-color: white;
+}
+
+.section-top {
+    margin-bottom: 20px;
+}
+
+.product-description-tabs{
+    padding: 10px;
+}
+
+.product-image-item {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-top{
+    min-height: 50px;
+    height: 20px;
+    background-color: #5cb85c;;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-main{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 0;
+}
+
+.basket-items {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-color: #55e093;
+    z-index: 10;
+    padding: 10px;
+}
+
+.basket-container{
+    position: relative;
+    width: 400px;
+    padding: 15px 10px;
+}
+
+.form-error{
+    color:red;
+}
+
+
 
