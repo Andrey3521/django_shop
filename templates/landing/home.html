@@ -3,7 +3,30 @@
 
 {% block content %}
 <div class="section-top">
-    <img src="{% static 'img/slider2_1.jpg' %}" class="img-responsive">
+    <!--    <img src="{% static 'img/slider2_1.jpg' %}" class="img-responsive">-->
+
+    <!-- Slider main container -->
+    <div class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="{% static 'img/slider2_1.jpg' %}" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="{% static 'img/slider3_2.jpg' %}" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="{% static 'img/slider4_3.jpg' %}" class="img-responsive"></div>
+            <div class="swiper-slide"><img src="{% static 'img/slider5_4.jpg' %}" class="img-responsive"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+<!--        <div class="swiper-scrollbar"></div>-->
+    </div>
+
+
 </div>
 <div class="section section1">
     <div class="container">
@@ -14,7 +37,7 @@
                 </h1>
             </div>
             {% for product_image in products_images %}
-                {% include 'landing/product_item.html' %}
+            {% include 'landing/product_item.html' %}
             {% endfor %}
         </div>
 
@@ -35,7 +58,7 @@
             </div>
 
             {% for product_image in products_images_phones %}
-                {% include 'landing/product_item.html' %}
+            {% include 'landing/product_item.html' %}
             {% endfor %}
         </div>
 
@@ -51,7 +74,7 @@
             </div>
 
             {% for product_image in products_images_laptops %}
-                {% include 'landing/product_item.html' %}
+            {% include 'landing/product_item.html' %}
             {% endfor %}
         </div>
 
