@@ -112,5 +112,15 @@ html, body{
     color:red;
 }
 
+.swiper-container{
+
+    .swiper-slide{
+    background:#ccc;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size:60px;
+    }
+}
 
 
